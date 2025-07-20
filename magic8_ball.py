@@ -21,5 +21,5 @@ elif(num==7):
 elif (num==8):
   ans="Outlook not so good.','Very doubtful"
 else:
-  ans=="Error"
+  ans="Error"
 print("Magic 8 ball: ",ans)
