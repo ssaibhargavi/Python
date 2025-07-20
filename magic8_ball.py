@@ -3,12 +3,23 @@
 
 import random
 qn=input("Enter a question: ")
-ans=random.randint(1,8)
-if(ans==1):print('Yes - definitely.')
-elif(ans==2):print('It is decidedly so.')
-elif(ans==3):print('Without a doubt.')
-elif(ans==4):print('Reply hazy, try again.')
-elif(ans==5):print('Ask again later.')
-elif(ans==6):print('Better not tell you now.')
-elif(ans==7):print('My sources say no.')
-else:print('Outlook not so good.','Very doubtful.')
+num=random.randint(1,9)
+if(num==1):
+  ans="Yes - definitely"
+elif(num==2):
+  ans="It is decidedly so"
+elif(num==3):
+  ans="Without a doubt"
+elif(num==4):
+  ans="Reply hazy, try again"
+elif(num==5):
+  ans="Ask again later"
+elif(num==6):
+  ans="Better not tell you now"
+elif(num==7):
+  ans="My sources say no"
+elif (num==8):
+  ans="Outlook not so good.','Very doubtful"
+else:
+  ans=="Error"
+print("Magic 8 ball: ",ans)
